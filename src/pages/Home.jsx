@@ -5,11 +5,11 @@ function Home() {
     <div className="page home">
       <header className="home-header">
         <h1>LineWatch</h1>
-        <p className="tagline">Stay in line. Stay on time.</p>
+        <p className="tagline">Compare the best odds</p>
       </header>
 
       <main className="home-content">
-        <p>LineWatch is your go-to app for tracking wait times and line lengths so you can plan your time better.</p>
+        <p>LineWatch is your go-to app for tracking and comparing the best odds across different sportsbooks for all sports.</p>
       </main>
 
       <footer className="home-footer">
