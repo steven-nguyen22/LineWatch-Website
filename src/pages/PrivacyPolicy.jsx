@@ -26,9 +26,12 @@ function PrivacyPolicy() {
           <p>We collect the following information when you create an account and use the App:</p>
           <ul>
             <li><strong>Email Address</strong> — collected when you sign up for an account, used for authentication and communication.</li>
+            <li><strong>Full Name</strong> — collected during signup to personalize your account experience.</li>
             <li><strong>Subscription Tier</strong> — information about which subscription plan you are enrolled in.</li>
+            <li><strong>Device Identifiers</strong> — anonymous device and installation identifiers used by our analytics and subscription providers to distinguish devices and manage entitlements.</li>
+            <li><strong>Usage &amp; Analytics Data</strong> — anonymized product events such as screen views, feature interactions, paywall views, trial starts, and purchase events.</li>
           </ul>
-          <p>We do not collect any other personal data beyond what is listed above.</p>
+          <p>The categories listed above are the only information we collect.</p>
         </section>
 
         <section>
@@ -39,6 +42,7 @@ function PrivacyPolicy() {
             <li>To authenticate your identity when you log in</li>
             <li>To manage your subscription and provide access to the appropriate features</li>
             <li>To communicate with you about your account, including service updates and support</li>
+            <li>To understand how users interact with the App so we can improve features, diagnose issues, and measure product performance</li>
           </ul>
         </section>
 
@@ -60,14 +64,17 @@ function PrivacyPolicy() {
 
         <section>
           <h2>Third-Party Services</h2>
-          <p>We use the following third-party services:</p>
+          <p>We use the following third-party services to operate the App:</p>
           <ul>
             <li><strong>Supabase</strong> — for secure data storage and authentication.</li>
             <li><strong>Apple App Store</strong> — for processing subscription payments. Payment information is handled entirely by Apple and is not accessible to us.</li>
+            <li><strong>RevenueCat</strong> — for subscription management and entitlement tracking. RevenueCat receives anonymized user identifiers and purchase data to manage your subscription status across devices.</li>
+            <li><strong>PostHog</strong> — for product analytics. We send anonymized usage events (such as screen views, feature interactions, and purchase events) to PostHog to improve the App. No personally identifying content is sent.</li>
           </ul>
           <p>
-            We do not sell, trade, or otherwise transfer your personal
-            information to any other third parties.
+            Each of these services has its own privacy policy and data handling
+            practices. We do not sell, trade, or otherwise transfer your
+            personal information to any other third parties.
           </p>
         </section>
 
