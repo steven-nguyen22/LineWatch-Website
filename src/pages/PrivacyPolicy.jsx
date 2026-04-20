@@ -89,13 +89,13 @@ function PrivacyPolicy() {
         </section>
 
         <section>
-          <h2>Children's Privacy</h2>
+          <h2>Age Restrictions</h2>
           <p>
-            The App is not intended for use by anyone under the age of 17. We do not 
-            knowingly collect personal information from users under 17. If we become 
-            aware that we have collected personal data from a user under 17, we will 
+            The App is not intended for use by anyone under the age of 21. We do not 
+            knowingly collect personal information from users under 21. If we become 
+            aware that we have collected personal data from a user under 21, we will 
             take steps to delete that information as quickly as possible. If you 
-            believe a user under 17 has provided us with personal information, please 
+            believe a user under 21 has provided us with personal information, please 
             contact us immediately.
           </p>
         </section>
