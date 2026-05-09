@@ -82,15 +82,22 @@ a:hover {
   margin-top: auto;
 }
 
-.home-footer a {
-  display: inline-block;
+.copyright {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
   font-size: 15px;
 }
 
-.copyright {
-  font-size: 13px;
-  color: #9ca3af;
+.footer-sep {
+  color: #d1d5db;
+  margin: 0 8px;
 }
 
 /* Privacy Policy page */

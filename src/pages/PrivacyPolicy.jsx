@@ -136,6 +136,11 @@ function PrivacyPolicy() {
       </main>
 
       <footer className="privacy-footer">
+        <div className="footer-links">
+          <Link to="/privacy">Privacy Policy</Link>
+          <span className="footer-sep">&middot;</span>
+          <Link to="/terms">Terms of Service</Link>
+        </div>
         <p>&copy; {new Date().getFullYear()} Steven Nguyen. All rights reserved.</p>
       </footer>
     </div>

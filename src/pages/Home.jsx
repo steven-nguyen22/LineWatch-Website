@@ -13,7 +13,11 @@ function Home() {
       </main>
 
       <footer className="home-footer">
-        <Link to="/privacy">Privacy Policy</Link>
+        <div className="footer-links">
+          <Link to="/privacy">Privacy Policy</Link>
+          <span className="footer-sep">&middot;</span>
+          <Link to="/terms">Terms of Service</Link>
+        </div>
         <p className="copyright">&copy; {new Date().getFullYear()} Steven Nguyen. All rights reserved.</p>
       </footer>
     </div>
